@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+         h1
+        {
+            text-align: center;
+            color: black;
+            background-color: rgb(181, 181, 255);
+            margin: 0px;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+        .menu{
+  padding: 0px;
+  margin:0px;
+  display: inline-block;
+}
+.menu li{
+  
+  list-style:none;
+  background-color: lightblue;
+            color:  black;
+}
+.menu li a{
+  padding: 20px 15px;
+  display: inline-block;
+  text-decoration:none;
+  color: #000000;
+}
+.menu li:hover a{
+    background: #333;
+    color: #fff;
+}
+.menu li ul{
+   margin: 0;
+   padding: 0;
+}
+.menu li ul{
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   z-index: 100;
+  display:none;
+}
+.menu li:hover ul{
+  display:inline-block;
+}
+.menu li ul li{
+  display:block;
+  width: 100%;
+}
+.menu li ul li a{
+  width: 100%;
+}
+footer
+        {
+            background-color: lightgreen;
+            clear: both;
+            position: relative;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+   <center> <nav> <h1>Nagłówek naszj strony</h1>
+
+        <ul class="menu">
+            <li>
+              <a href="ser.html">Start</a>
+            </li>
+            <li>
+              <a href="ser.html">Aktualności</a>
+            </li>
+            <li>
+              <a href="ser.html">Szkolenia</a>
+               <ul>
+                <li>
+                   <a href="ser.html">HTML</a>
+                </li>
+                <li>
+                  <a href="ser.html">CSS</a>
+                </li>
+                <li>
+                    <a href="ser.html">JS</a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="ser.html">Usługi</a>
+               <ul>
+                <li>
+                   <a href="ser.html">pogotowie</a>
+                </li>
+                <li>
+                  <a href="ser.html">projektowanie</a>
+                </li>
+                <li>
+                    <a href="ser.html">piekarnia</a>
+                  </li>
+               </ul>
+            <li>
+               <a href="ser.html">Informacje</a>
+            </li>
+            <li>
+                <a href="ser.html">Kontakt</a>
+             </li>
+           </ul>
+    </nav></center>
+    <center><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <footer>
+        Stopka naszej strony Ryszard Rogacz &copy; 20202
+    </footer></center>
+</body>
+</html>

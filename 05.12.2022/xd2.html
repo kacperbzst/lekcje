@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        input[type=text]
+        {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: solid 2px rgb(187, 187, 187);
+            padding: 5px;
+            margin: 15px;
+            width: 460px;
+            height: 40px;
+            font-family: 'Maven Pro', sans-serif;
+        }
+        label
+        {
+            color: rgb(63, 63, 63);
+            font-size: 20px;
+        }
+        body
+        {
+            background: rgb(63,157,255);
+            background: linear-gradient(90deg, rgba(63,157,255,1) 0%, rgba(191,25,255,1) 95%); 
+            font-family: 'Maven Pro', sans-serif;
+        }
+        h2
+        {
+            background-color: white;
+            margin: auto;
+            margin-bottom: 0px;
+            padding-top: 100px;
+            width: 500px;
+            padding: 20px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            font-family: 'Verdana';
+            font-size: 40px;
+        }
+        #jej
+        {
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            padding: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }  
+        input[type=submit]
+        {
+            background: rgb(63,157,255);
+            background: linear-gradient(90deg, rgba(63,157,255,1) 0%, rgba(191,25,255,1) 95%); 
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            width: 300px;
+            height: 50px;
+            margin-left: 100px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-family: 'Maven Pro', sans-serif;
+        } 
+        input[type=radio]
+        {
+            margin-left: 110px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+        p
+        {
+            opacity: 35%;
+        }
+        img
+        {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+      <center>  <h2>Login</h2> </center>
+
+        <div id="jej">
+            <input type="radio">Uczeń
+            <input type="radio">Nauczyciel <br /><br />
+            <label for="Username">Username</label> <img src="logo.png" alt="" width="25px" height="25px">
+            <input type="text" id="Username" name="Username" placeholder="Type your username" style=" margin-right: 0px;">  <br />
+            <label for="Password">Password</label> <img src="ds.png" alt="" width="25px" height="25px">
+            <input type="text" id="Password" name="Password" placeholder="Type your password"> <br />
+            <input type="submit" value="Login"> <br /> <br /> <br /> <br />
+    <center><p>Or Sign Up Using for student </p>
+           <p>SIGN UP</p></center> 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-image: url('cos.png');
+            background-repeat: no-repeat;
+            color: white;
+        }
+        h1
+        {
+            margin-left: 150px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        label
+        {
+            margin-left: 150px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        #chose, input[type=text]
+        {
+            border: 0px;
+            height: 30px;
+            margin: 20px;
+            width: 230px;
+        }
+        input[type=textarea]
+        {
+            border: 0px;
+            height: 100px;
+            margin: 20px;
+            width: 500px;
+        }
+        input::placeholder
+        {
+            opacity: 50%;
+        }
+        input[type=submit]
+        {
+            background: none;
+            color: white;
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 20px;
+            width: 300px;
+            height: 50px;
+            margin-left: 150px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-family: 'Maven Pro', sans-serif;
+        } 
+    </style>
+</head>
+<body>
+   <h1>FORMULARZ KONTAKTOWY</h1> 
+        <label for="fname">Your Name</label>
+        <input type="text" id="fname" name="fname "placeholder="First Name">
+        <input type="text" id="lname" name="lname "placeholder="Last Name"> <br />
+        <label for="text">Your Email</label>
+        <input type="text" id="mail" name="mial" placeholder="eg.hello@contact.net" style="width: 510px;"> <br />
+        <label for="fon" style="margin-right: 47px;">Phone*</label>
+        <input type="text" id="fon" name="fon" placeholder="###" style="width:138px;"> 
+        <input type="text" id="fon" name="fon" placeholder="###" style="width:138px;"> 
+        <input type="text" id="fon" name="fon" placeholder="###" style="width:138px;"> <br />
+        <label for="cars">Message subject*</label>
+  <select id="chose" name="chose">
+    <option value="oth">Other</option>
+    <option value="sm">Something</option>
+    <option value="an">Anything</option>
+    <option value="ev">Everything</option> 
+  </select> <br /> <br />
+  <label for="message" style="margin-right: 45px;">Message*</label>
+  <input type="textarea" id="message" name="message">
+  <br /><br />
+  <label for="checkbox">Verification*</label>
+  <input type="checkbox">i'm not a robot
+        <hr style="margin-left: 150px; width: 635px ;">
+        <input type="submit" value="SUBMIT FORM">
+</body>
+</html>
